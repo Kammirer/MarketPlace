@@ -9,3 +9,18 @@
 .contact-us .contact-us-content .contact-us-banner{
     padding: 32px 40px;
 }
+.contact-us .contact-us-content .contacts-block{
+    padding: 0px 40px;
+}
+.contact-us .contact-us-content .contacts-block .office-add i{
+    font-size: 24px;
+}
+.contact-us .contact-us-content .contacts-block .office-add .office-address-content{
+    padding-left: 21px;
+}
+.contact-us .contact-us-content .contacts-block .office-add .office-address-content .sub-title{
+    margin-bottom: 20px;
+}
+.contact-us .contact-us-content .contacts-block .office-add .office-address-content .office-address-info p{
+    margin-top: 28px;
+}

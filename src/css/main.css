@@ -1,0 +1,104 @@
+/* Inner */
+.inner{
+    background: url('../../app/img/bg-main.jpg') no-repeat center / cover;
+    filter: grayscale(100%);
+    padding: 155px 0px 175px 0px;
+    text-align: center;
+}
+.inner .inner-content h1{
+    margin-bottom: 35px;
+}
+.inner .inner-content .wellcome-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.inner .inner-form{
+    margin-top: 55px;
+}
+
+/* Tags */
+.tags{
+    margin: 60px 0;
+}
+.tags li>a{
+    padding: 13px 21px;
+    background-color: #fff;
+    color: #263238;
+    font-size: 14;
+    font-weight: 500;
+}
+.tags li+li{
+    margin-left: 6px;
+}
+.tags li>a:hover, .tags li>a:active{
+    background-color: #e74c3c;
+    color: #fff;
+    box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
+}
+.new-release .card-example .row + .row{
+    margin-top: 30px;
+}
+.new-release .card-example .card-example-btn{
+    margin-top: 70px;
+}
+.new-release .card-example .card-example-btn a+a{
+    margin-left: 12px;
+}
+.new-release .card-example .card-example-btn a:hover{
+    background-color: #e74c3c;
+    color: #fff;
+}
+.why-choose-select{
+    margin-top: 80px;
+}
+.select-block p{
+    text-align: center;
+}
+.why-choose .why-choose-select .sub-title{
+    margin: 33px 0 26px 0;
+}
+.why-choose .why-choose-select .sub-title:hover{
+    color: #8bc34a;
+    cursor: pointer;
+}
+.why-choose .why-choose-select .select-block p{
+    line-height: 1.6;
+}
+
+/*  */
+.tutorials .tutorial-content{
+    margin-top: 57px;
+}
+.tutorials .tutorial-card .tutorial-title{
+    padding: 39px 71px;
+    background-color: #f8f8f8;
+    margin-top: -3px;
+    text-align: center;
+}
+
+/* Banner */
+.banner .banner-lg{
+    width: 1105px;
+    height: 438px;
+    position: relative;
+    box-shadow: 0px 0px 45px rgba(171, 178, 185, 0.75);
+}
+.banner .banner-lg .banner-sm{
+    position: absolute;
+    width: 653px;
+    height: 216px;
+    padding: 71px 60px 82px 60px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.banner .banner-lg .banner-sm .banner-title{
+    font-size: 30px;
+    line-height: 1.2;
+    width: 50%;
+}
+.banner-btn:hover a{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}

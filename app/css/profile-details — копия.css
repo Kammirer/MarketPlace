@@ -1,0 +1,92 @@
+/* Inner */
+.inner-sm{
+    background: url("../../app/img/bg-pd.jpg") no-repeat center / cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    padding: 60px 0 68px 0;
+}
+.inner-sm .inner-form{
+    margin-top: 25px;
+}
+
+/* Profile Details */
+.porfile-details-content .aside-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 26px 31px 40px 31px;
+    border: 1px solid #dcdcdc;
+}
+.porfile-details-content .aside-section .aside-item{
+    padding: 25px 0 45px 0;
+}
+.porfile-details-content .aside-section .aside-item .about-author-img{
+    margin-right: 16px;
+}
+.porfile-details-content .aside-section .aside-item .about-author-status span{
+    font-size: 18px;
+}
+.porfile-details-content .aside-section .aside-item .about-author-status .fas{
+    font-size: 9px;
+    color: #8bbe44;
+}
+.porfile-details-content .social-nav{
+    padding: 24px 0px 24px 5px;
+}
+.porfile-details-content .social-nav a+a{
+    margin-left: 7px;
+}
+.porfile-details-content .btn-author{
+    text-align: center;
+}
+.porfile-details-content .btn-author a+a{
+    margin-top: 17px;
+}
+.porfile-details-content .btn-author .far{
+    margin-right: 15px;
+}
+.porfile-details-content .aside-navigation{
+    margin-top: 31px;
+}
+.porfile-details-content .aside-navigation a{
+    padding: 17px 23px;
+    border: 1px solid #dcdcdc;
+}
+.porfile-details-content .aside-navigation a i{
+    margin-right: 15px;
+}
+.porfile-details-content .author-banner{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+.porfile-details-content .author-statistic{
+    margin-top: 30px;
+}
+.porfile-details-content .author-statistic .author-stat{
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    line-height: 1.5;
+}
+.porfile-details-content .author-statistic .author-stat .author-stat-title{
+    color: #000;
+    font-weight: 700;
+}
+.porfile-details-content .author-statistic .author-stat .author-stat-icon .fas{
+    color: #ffa726;
+}
+.porfile-details-content .author-about-skills{
+    margin-top: 30px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+.porfile-details-content .author-about-skills .about-author p{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.porfile-details-content .author-about-skills .author-skills{
+    margin-top: 45px;
+}

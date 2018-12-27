@@ -7,9 +7,9 @@
     <title>Document</title>
     <!-- Slick Slider -->
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/> -->
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/> -->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <!-- Google Fonts -->
@@ -121,6 +121,16 @@
         </div>
     </div>
 
+
+    <!-- Modal window / Popup -->
+    <section class="default-section">
+        <div class="container">
+            <button class="open-login-modal" data-modal data-target="#login-modal">Открыть модальное окно</button>
+            <button class="open-login-modal" data-modal data-target="#exit-modal">Открыть модальное окно</button>
+        </div>
+    </section>
+
+
 <!-- Footer -->
     <footer class="footer bg-dark text-gray" style="margin-top: 50px;">
         <div class="container">
@@ -211,10 +221,20 @@
         </div>
     </footer>
 <!-- End Footer -->
+
+
+    <!-- popup -->
+    <div class="modal login-modal" id="login-modal">
+
+    </div>
+
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Slick Slider -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script> -->
+    <!-- bPopap -->
+    <script src="js/jquery.bpopup.min.js"></script>
     <!-- Init -->
     <script type="text/javascript" src="js/init.js"></script>
 </body>

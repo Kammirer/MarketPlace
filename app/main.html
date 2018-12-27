@@ -68,7 +68,7 @@
                             <i class="fas fa-angle-down"></i>
                         </div>
                     </div>
-                    <a href="" class="btn btn-red btn-radius">Logout</a>
+                    <button href="" class="btn btn-red btn-radius open-login-modal" data-modal data-target="#login-modal">Logout</button>
                 </div>
             </div>
         </div>
@@ -627,8 +627,33 @@
         </div>
     </footer>
 <!-- End Footer -->
+
+<!-- Popup-login -->
+    <div class="modal login-modal" id="login-modal">
+        <span class="close-modal-icon"><i class="fas fa-times"></i></span>
+        <span class="title-login text-bold">Login</span>
+        <form action="">
+            <div class="login-input">
+                <label for="" class="fas fa-user"></label>
+                <input type="text" placeholder="Name*" class="modal-input">
+            </div>
+            <div class="login-input">
+                <label for="" class="fas fa-lock"></label>
+                <input type="password" placeholder="Password*" class="modal-input">
+            </div>
+            <div class="btn-row">
+                <button type="submit">Submit</button>
+                <a href=""><i class="fas fa-edit"></i>Create An Account?</a>
+            </div>
+        </form>
+        <a href="">Lost Password?</a>
+    </div>
+<!-- End Popup-login -->
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- bPopap -->
+    <script src="js/jquery.bpopup.min.js"></script>
     <!-- Slick Slider -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script> -->
     <!-- Init -->

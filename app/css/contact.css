@@ -48,6 +48,18 @@
     font-size: 15px;
     margin-top: 25px;
 }
+.contact-us .contact-us-content .contact-us-form-block .contact-us-form .contact-form-input input::-webkit-input-placeholder{
+    color: #7a7a7a;
+}
+.contact-us .contact-us-content .contact-us-form-block .contact-us-form .contact-form-input input:-ms-input-placeholder{
+    color: #7a7a7a;
+}
+.contact-us .contact-us-content .contact-us-form-block .contact-us-form .contact-form-input input::-ms-input-placeholder{
+    color: #7a7a7a;
+}
+.contact-us .contact-us-content .contact-us-form-block .contact-us-form .contact-form-input input::placeholder{
+    color: #7a7a7a;
+}
 .contact-us .contact-us-content .contact-us-form-block .contact-us-form textarea{
     width: 100%;
     height: 193px;

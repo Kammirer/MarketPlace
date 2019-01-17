@@ -1,0 +1,19 @@
+.withdrawals-content{
+    padding: 38px;
+}
+.withdrawals-table tbody tr td:nth-child(-n+2){
+    text-align: center;
+}
+.withdrawals-table tbody{
+    color: #444;
+    font-size: 13px;
+}
+.withdrawals-table.table tbody tr{
+    border: none;
+}
+.withdrawals-table tbody tr td:nth-child(n+3){
+    font-weight: 700;
+}
+.withdrawals-table tbody tr:nth-child(n+2) td:nth-child(4){
+    color: #8bc34a;
+}

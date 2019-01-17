@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="css/404.css">
     <link rel="stylesheet" href="css/product-details.css">
     <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/sale-statement.css">
 </head>
 <body>
     <!-- Header -->
@@ -105,49 +106,100 @@
                 <i class="fas fa-search"></i>
             </form>
         </section>
-        <section class="profile-details bg-light-gray default-section-breadcrumbs" style="padding-bottom: 115px">
+        <section class="contact-us bg-light-gray default-section-breadcrumbs" style="padding-bottom: 115px">
             <div class="container">
                 <div class="breadcrumbs-wrap">
                     <ul class="breadcrumbs d-flex">
                         <li><a href="">Home</a></li>
-                        <li class="breadcrumbs-active">Product Page</li>
+                        <li class="breadcrumbs-active">Contact Us</li>
                     </ul>
                 </div>
-                <div class="porfile-details-content">
-                    <div class="row d-flex">
-                        <div class="col-lg-3 settings-col-lg-3">
-                            <div class="aside-navigation d-flex flex-column">
-                                <a href="" class="active">About Me</a>
-                                <a href="">Products (10)</a>
-                                <a href="">Message Box</a>
-                                <a href="">Customer Reviews (20)</a>
-                                <a href="">Followers (100)</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-9 contact-us">
-                            <div class="contact-us-content">
-                                <div class="contact-title aside-title">
-                                    <span>Contact With Us</span>
-                                </div>
-                                <div class="settings-block">
-                                    <form action="" class="settings-form d-flex flex-column">
-                                        <label for="name1">First Name<input type="text" id="name1"></label>
-                                        <label for="name2">Last Name<input type="text" id="name2"></label>
-                                        <label for="company">Company Name<input type="text" id="company"></label>
-                                        <label for="country">Country<select name="" id="country">
-                                            <option value="" disabled>Select Your Country</option>
-                                            <option value="">Ukraine</option>
-                                            <option value="">USA</option>
-                                        </select></label>
-                                        <label for="address1">Address Line 1<input type="text" id="address1"></label>
-                                        <label for="address2">Address Line 2<input type="text" id="address2"></label>
-                                        <label for="city">City<input type="text" id="city"></label>
-                                        <label for="region">State / Province / Region<input type="text" id="region"></label>
-                                        <label for="postal">Zip / Postal Code<input type="text" id="postal"></label>
-                                    </form>
-                                    <a href="" class="btn btn-main-items bg-green btn-settings">Update</a>
-                                </div>
-                            </div>
+                <div class="contact-us-content">
+                    <div class="contact-title aside-title">
+                        <span>Your Sales Statement</span>
+                    </div>
+                    <div class="sales-content bg-wight">
+                        <table class="table sale-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Avatar</th>
+                                    <th>ID</th>
+                                    <th>Full Name</th>
+                                    <th>Purchase</th>
+                                    <th>Price</th>
+                                    <th>Download</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2050</td>
+                                    <td>Jessy Sket</td>
+                                    <td>15</td>
+                                    <td>$200</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2051</td>
+                                    <td>Robert Smith</td>
+                                    <td>10</td>
+                                    <td>$180</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2052</td>
+                                    <td>Ziniza</td>
+                                    <td>20</td>
+                                    <td>$1,200</td>
+                                    <td>20</td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2053</td>
+                                    <td>David Rock</td>
+                                    <td>10</td>
+                                    <td>$300</td>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2054</td>
+                                    <td>Jessy Sket</td>
+                                    <td>15</td>
+                                    <td>$800</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2055</td>
+                                    <td>Neo Buler</td>
+                                    <td>12</td>
+                                    <td>$600</td>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td><img src="img/card-avatar.png" alt=""></td>
+                                    <td>#2056</td>
+                                    <td>Jessy Sket</td>
+                                    <td>02</td>
+                                    <td>$200</td>
+                                    <td>02</td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                        <div class="total-sale">
+                            <span class="text-dark">Total Sales:</span>
+                            <span class="text-green text-med">$ 5,030</span>
                         </div>
                     </div>
                 </div>
@@ -245,6 +297,7 @@
         </div>
     </footer>
 <!-- End Footer -->
+
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Slick Slider -->

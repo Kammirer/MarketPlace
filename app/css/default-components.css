@@ -560,3 +560,21 @@ input::placeholder{
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Table */
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th{
+    text-align: left;
+}
+.table tbody tr + tr{
+    border-top: 1px solid #eee;
+}
+.table tbody tr:nth-child(even){
+    background-color: #fbfbfb;
+}
+.table tbody tr td{
+    padding: 15px 0px;
+}

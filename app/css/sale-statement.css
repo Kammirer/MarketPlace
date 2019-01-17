@@ -1,0 +1,19 @@
+.sales-content{
+    padding: 35px 40px 78px 40px;
+}
+.sale-table thead th{
+    background-color: #455a64;
+    color: #fff;
+    padding: 25px 0px;
+}
+.sale-table thead tr th:first-child, .sale-table tbody tr td:first-child{
+    text-align: center;
+}
+.sale-table tbody tr td:nth-child(3){
+    font-weight: 700;
+    color: #333;
+}
+.sales-content .total-sale{
+    font-size: 30px;
+    margin-top: 80px;
+}

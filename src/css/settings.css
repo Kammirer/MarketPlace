@@ -1,0 +1,30 @@
+.settings-col-lg-3 .aside-navigation{
+    margin-top: 0px;
+}
+.settings-form label{
+    display: flex;
+    justify-content: space-between;
+    color: #444;
+    align-items: center;
+}
+.settings-block{
+    padding: 33px 38px 80px 38px;
+}
+.settings-form label input, .settings-form label select{
+    width: 540px;
+    height: 40px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 0px 10px;
+}
+.settings-form label + label{
+    margin-top: 21px;
+}
+.settings-block .btn-settings{
+    margin: 25px 0px 0px 231px;
+}
+.settings-block .btn-settings:hover{
+    background-color: #fff;
+    color: #76ae36;
+    border: 1px solid #76ae36;
+}

@@ -29,3 +29,33 @@
 .product-details .products-features .tabs .tabs-content .tab-pane.active{
     display: flex;
 }
+.products-features .prod-banner{
+    background-color: #fff;
+    border: 1px solid #dedede;
+}
+.products-features .prod-banner img{
+    padding: 20px;
+}
+.products-features .products-features-text .aside-title{
+    font-size: 30px;
+}
+.products-features .products-features-text p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 26px;
+}
+.products-features .products-features-text{
+    margin: 39px 0 45px 0;
+}
+.products-features .btn-and-social{
+    margin-bottom: 55px;
+}
+.products-features .btn-and-social .prod-btn a+a{
+    margin-left: 18px;
+}
+.products-features .social-nav li+li{
+    margin-left: 3px;
+}
+.products-features .social-nav li:hover{
+    opacity: 0.7;
+}

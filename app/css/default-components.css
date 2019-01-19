@@ -62,8 +62,14 @@
 .btn.btn-grayblue{
     background-color: #455a64;
 }
+.btn.btn-grayblue:hover{
+    background-color: #374850;
+}
 .btn.btn-green{
     background-color: #76ae36;
+}
+.btn.btn-green:hover{
+    background-color: #66972f;
 }
 .btn.btn-lightgreen{
     background-color: #8dc34a;

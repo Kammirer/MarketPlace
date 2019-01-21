@@ -80,6 +80,9 @@
 .btn.btn-blue{
     background-color: #42a5f5;
 }
+.btn.btn-blue:hover{
+    background-color: #3890d8;
+}
 .btn.btn-gray{
     background-color: #546e7a;
 }

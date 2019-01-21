@@ -20,6 +20,9 @@
 .bg-form-dark{
     background-color: #2f3c43;
 }
+.bg-white{
+    background-color: #fff;
+}
 
 /* Breadcrumbs */
 .breadcrumbs{

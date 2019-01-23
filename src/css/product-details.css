@@ -25,6 +25,17 @@
 }
 .product-details .products-features .tabs .tabs-content .tab-pane{
     display: none;
+    padding: 40px;
+}
+.product-details .products-features .tabs .tabs-content .tab-pane ul + ul{
+    margin-left: 40px;
+}
+.product-details .products-features .tabs .tabs-content .tab-pane ul li + li{
+    margin-top: 20px;
+}
+.product-details .products-features .tabs .tabs-content .tab-pane ul li i{
+    margin-right: 15px;
+    color: #8bc34a;
 }
 .product-details .products-features .tabs .tabs-content .tab-pane.active{
     display: flex;
@@ -70,4 +81,47 @@
 }
 .prod-det-product .card{
     margin-top: 28px;
+}
+.product-filter-block .aside-section + .aside-section{
+    margin-top: 30px;
+}
+.product-filter-block .aside-title{
+    padding-bottom: 23px;
+    margin-bottom: 23px;
+    border-bottom: 1px solid #dde3e8;
+}
+.product-filter-block .product-price .btn-block-prod{
+    margin-top: 28px;
+}
+.product-filter-block .product-price .btn-block-prod a{
+    width: 100%;
+    text-align: center;
+}
+.product-filter-block .product-price .btn-block-prod a + a{
+    margin-top: 8px;
+}
+.product-filter-block .price-filter span{
+    font-size: 22px;
+}
+.product-filter-block .price-filter select{
+    padding: 8px;
+    color: #70838d;
+}
+.product-filter-block .sales-aside-sec{
+    font-size: 20px;
+}
+.product-filter-block .sales-aside-sec span{
+    margin-left: 20px;
+}
+.product-filter-block .aside-section .prod-info-ls li{
+    line-height: 1.43;
+}
+.product-filter-block .aside-section .prod-info-ls li label{
+    color: #263238;
+}
+.product-filter-block .aside-section .prod-info-ls li span{
+    margin-left: 5px;
+}
+.product-filter-block .aside-section .prod-info-ls li + li{
+    margin-top: 22px;
 }

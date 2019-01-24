@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/plain" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/plain" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
-    <!-- Datapicker -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
@@ -35,6 +34,7 @@
     <link rel="stylesheet" href="css/product-details.css">
     <link rel="stylesheet" href="css/settings.css">
     <link rel="stylesheet" href="css/sale-statement.css">
+    <link rel="stylesheet" href="css/all-new-items-4.css">
 </head>
 <body>
     <!-- Header -->
@@ -108,106 +108,96 @@
                 <i class="fas fa-search"></i>
             </form>
         </section>
-        <section class="contact-us bg-light-gray default-section-breadcrumbs" style="padding-bottom: 115px">
+        <section class="profile-details bg-light-gray default-section-breadcrumbs" style="padding-bottom: 115px">
             <div class="container">
                 <div class="breadcrumbs-wrap">
                     <ul class="breadcrumbs d-flex">
                         <li><a href="">Home</a></li>
-                        <li class="breadcrumbs-active">Contact Us</li>
+                        <li class="breadcrumbs-active">Product Page</li>
                     </ul>
                 </div>
-                <div class="contact-us-content">
-                    <div class="contact-title aside-title d-flex justify-content-between align-items-center">
-                        <span>Your Sales Statement</span>
-                        <div class="datapicker">
-                            <input type="text" id="from" name="from">
-                            <label for="to">to</label>
-                            <input type="text" id="to" name="to">
-                            <a href="" class="btn btn-small bg-green">Find</a>
+                <div class="porfile-details-content">
+                    <div class="row d-flex">
+                        <div class="col-lg-3">
+                            <div class="aside-section">
+                                <div class="aside-title">
+                                    <span>Price Range</span>
+                                </div>
+                                <div id="slider-range"></div>
+                                <div><input type="text" id="amount" readonly style="border:0; color:#76ae36; font-weight:bold;"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sales-content bg-wight">
-                        <table class="table sale-table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Avatar</th>
-                                    <th>ID</th>
-                                    <th>Full Name</th>
-                                    <th>Purchase</th>
-                                    <th>Price</th>
-                                    <th>Download</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2050</td>
-                                    <td>Jessy Sket</td>
-                                    <td>15</td>
-                                    <td>$200</td>
-                                    <td>15</td>
-                                </tr>
-                                <tr>
-                                    <td>2.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2051</td>
-                                    <td>Robert Smith</td>
-                                    <td>10</td>
-                                    <td>$180</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <td>3.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2052</td>
-                                    <td>Ziniza</td>
-                                    <td>20</td>
-                                    <td>$1,200</td>
-                                    <td>20</td>
-                                </tr>
-                                <tr>
-                                    <td>4.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2053</td>
-                                    <td>David Rock</td>
-                                    <td>10</td>
-                                    <td>$300</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <td>5.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2054</td>
-                                    <td>Jessy Sket</td>
-                                    <td>15</td>
-                                    <td>$800</td>
-                                    <td>15</td>
-                                </tr>
-                                <tr>
-                                    <td>6.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2055</td>
-                                    <td>Neo Buler</td>
-                                    <td>12</td>
-                                    <td>$600</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>7.</td>
-                                    <td><img src="img/card-avatar.png" alt=""></td>
-                                    <td>#2056</td>
-                                    <td>Jessy Sket</td>
-                                    <td>02</td>
-                                    <td>$200</td>
-                                    <td>02</td>
-                                </tr>                                
-                            </tbody>
-                        </table>
-                        <div class="total-sale">
-                            <span class="text-dark">Total Sales:</span>
-                            <span class="text-green text-med">$ 5,030</span>
+                        <div class="col-lg-9">
+                            <div class="author-banner">
+                                <img src="img/prof-det-banner.jpg" alt="">
+                            </div>
+                            <div class="author-statistic d-flex">
+                                <div class="author-stat d-flex flex-column">
+                                    <span class="author-stat-title">Country:</span>
+                                    <span>England</span>
+                                </div>
+                                <div class="author-stat d-flex flex-column">
+                                    <span class="author-stat-title">Member Since:</span>
+                                    <span>December 26, 2018</span>
+                                </div>
+                                <div class="author-stat d-flex flex-column">
+                                    <span class="author-stat-title">Author Rating:</span>
+                                    <span class="author-stat-icon">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>(05)</span>
+                                    </span>
+                                </div>
+                                <div class="author-stat d-flex flex-column">
+                                    <span class="author-stat-title">Total Sales:</span>
+                                    <span><i class="fas fa-dollar-sign"></i> 5,030</span>
+                                </div>
+                            </div>
+                            <div class="author-about-skills">
+                                <div class="about-author">
+                                    <div class="aside-title">
+                                        <span>About Me:</span>
+                                    </div>
+                                    <p>Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                                </div>
+                                <div class="author-skills">
+                                    <div class="aside-title">
+                                        <span>Skills:</span>
+                                    </div>
+                                    <div class="skill-content">
+                                        <div class="skill-block">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="small-title text-italik text-dark">Graphic Design</span>
+                                                <span class="skill-percent text-bold text-dark">80</span>
+                                            </div>
+                                            <div class="progress-bg">
+                                                <div class="progress" style="width: 80%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-block">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="small-title text-italik text-dark">WordPress</span>
+                                                <span class="skill-percent text-bold text-dark">90</span>
+                                            </div>
+                                            <div class="progress-bg">
+                                                <div class="progress" style="width: 90%;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-block">
+                                            <div class="d-flex justify-content-between">
+                                                <span class="small-title text-italik text-dark">Joomla</span>
+                                                <span class="skill-percent text-bold text-dark">70</span>
+                                            </div>
+                                            <div class="progress-bg">
+                                                <div class="progress" style="width: 70%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -305,14 +295,12 @@
         </div>
     </footer>
 <!-- End Footer -->
-
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Slick Slider -->
     <script type="text/plain" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
-    <!-- Datapicker -->
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/datapicker.js"></script>
+    <script type="text/javascript" src="js/price-range.js"></script>
     <!-- Init -->
     <script type="text/javascript" src="js/init.js"></script>
 </body>

@@ -7,3 +7,55 @@
 #slider-range .ui-widget-header{
     background-color: #37474f;
 }
+.all-items ul li + li{
+    margin-top: 25px;
+}
+.all-items ul li i{
+    margin-right: 13px;
+}
+.price-range-block .info-slider-range{
+    margin-top: 13px;
+}
+.price-range-block .btn{
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.price-range-block .btn i{
+    margin-right: 10px;
+}
+.porfile-details-content .card-min-items .card-description, .porfile-details-content .card-min-items .card-author-info{
+    padding: 20px 24px;
+}
+.porfile-details-content .card-min-items{
+    margin-top: 30px;
+}
+.porfile-details-content .sort-by{
+    padding: 22px;
+    border: 1px solid #dfdfdf;
+}
+.sort-by-left span{
+    margin: 0 12px;
+}
+.sort-by-right a + a{
+    margin-left: 10px;
+}
+.porfile-details-content .pagination-items{
+    margin-top: 60px;
+}
+.porfile-details-content .pagination-items ul li{
+    background-color: #fff;
+    padding: 13px;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0px 1px 2px rgba(205, 214, 222, 0.75);
+}
+.porfile-details-content .pagination-items ul li + li{
+    margin-left: 8px;
+}
+.porfile-details-content .pagination-items .pagination-active{
+    background-color: #e74c3c;
+    color: #fff;
+}

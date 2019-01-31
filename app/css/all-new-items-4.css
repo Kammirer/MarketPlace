@@ -24,9 +24,6 @@
 .price-range-block .btn i{
     margin-right: 10px;
 }
-.porfile-details-content .card-min-items .card-description, .porfile-details-content .card-min-items .card-author-info{
-    padding: 20px 24px;
-}
 .porfile-details-content .card-min-items{
     margin-top: 30px;
 }
@@ -58,4 +55,26 @@
 .porfile-details-content .pagination-items .pagination-active{
     background-color: #e74c3c;
     color: #fff;
+}
+
+.product-download-row{
+    margin-left: 15px;
+}
+.product-download-row li + li{
+    margin-left: 15px;
+}
+.product-download-bracket{
+    color: #8bc34a;
+    font-size: 16px;
+}
+.product-download-row .product-download-bracket::before{
+    content: "|";
+    color: #aeb4bb;
+    margin-right: 15px;
+}
+.row-card .card-description-wrapper .card-iten-info,
+.row-card .card-description-wrapper .product-download-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }

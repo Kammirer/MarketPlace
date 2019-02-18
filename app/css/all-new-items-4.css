@@ -7,10 +7,10 @@
 #slider-range .ui-widget-header{
     background-color: #37474f;
 }
-.all-items ul li + li{
+.all-items .ul-categories li + li{
     margin-top: 25px;
 }
-.all-items ul li i{
+.all-items .ul-categories li i{
     margin-right: 13px;
 }
 .price-range-block .info-slider-range{
@@ -77,4 +77,24 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+.price-range-block .card-top-ten .card-img,
+.price-range-block .card-top-ten .card-description-wrapper{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+.price-range-block .card-top-ten .card-description,
+.price-range-block .card-top-ten .card-author-info{
+    padding: 10px 3px;
+    border: none;
+}
+.price-range-block .card-top-ten .card-description .title-card{
+    margin-bottom: 10px;
+}
+.price-range-block .card-top-ten .card-author-info .product-rating{
+    font-size: 8px;
+}
+.price-range-block .block-top-ten .card-top-ten + .card-top-ten{
+    margin-top: 25px;
 }
